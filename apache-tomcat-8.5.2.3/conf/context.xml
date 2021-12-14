@@ -42,6 +42,6 @@
               removeAbandonedTimeout="60"
               testWhileIdle="true"
               timeBetweenEvictionRunsMillis="300000"
-              url="jdbc:mysql://localhost:8889/jndi?autoReconnect=true&amp;useEncoding=true&amp;characterEncoding=UTF-8" />
+              url="jdbc:mysql://db:3306/jndi?autoReconnect=true&amp;useEncoding=true&amp;characterEncoding=UTF-8" />
 
 </Context>
